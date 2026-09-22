@@ -1,0 +1,9 @@
+{
+    "RolePermission": true,
+    "Settings": true,
+    "Notification": true,
+    "ActivityLog": true,
+    "ImportDownloadManager": true,
+    "BackupCleanup": true,
+    "User": true
+}
