@@ -101,11 +101,5 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/mrjthedifferent/laravel-foundation"
-        }
-    ],
     "homepage": "https://github.com/mrjthedifferent/laravel-foundation-skeleton"
 }
