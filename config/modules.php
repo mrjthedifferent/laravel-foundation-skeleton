@@ -1,5 +1,6 @@
 <?php
 
+use Mrj\Foundation\Foundation;
 use Nwidart\Modules\Activators\FileActivator;
 use Nwidart\Modules\Providers\ConsoleServiceProvider;
 
@@ -261,7 +262,7 @@ return [
     'scan' => [
         'enabled' => true,
         'paths' => [
-            \Mrj\Foundation\Foundation::modulesPath(),
+            Foundation::modulesPath(),
         ],
     ],
 
