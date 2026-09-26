@@ -66,8 +66,8 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --seed --ansi",
-            "@npm install --ignore-scripts",
-            "@npm run build"
+            "npm install --ignore-scripts",
+            "npm run build"
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
