@@ -3085,16 +3085,16 @@
         },
         {
             "name": "mrjthedifferent/laravel-foundation",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrjthedifferent/laravel-foundation.git",
-                "reference": "9a44db6721edf16a0c38e9de411c67901fb82ec1"
+                "reference": "17322fe5f3e13f1178ed44e162ac3a83d4fd2502"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/9a44db6721edf16a0c38e9de411c67901fb82ec1",
-                "reference": "9a44db6721edf16a0c38e9de411c67901fb82ec1",
+                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/17322fe5f3e13f1178ed44e162ac3a83d4fd2502",
+                "reference": "17322fe5f3e13f1178ed44e162ac3a83d4fd2502",
                 "shasum": ""
             },
             "require": {
@@ -3199,7 +3199,7 @@
                 "issues": "https://github.com/mrjthedifferent/laravel-foundation/issues",
                 "source": "https://github.com/mrjthedifferent/laravel-foundation"
             },
-            "time": "2026-09-27T17:38:02+00:00"
+            "time": "2026-09-27T18:00:26+00:00"
         },
         {
             "name": "myclabs/deep-copy",
