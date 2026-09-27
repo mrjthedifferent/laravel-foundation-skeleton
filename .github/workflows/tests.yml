@@ -48,6 +48,14 @@ jobs:
         if: matrix.php == '8.4'
         run: php artisan foundation:sync --check
 
+      # Deploys run this; it fails on a path the checkout lacks, such as an empty views folder.
+      - name: Framework caches build
+        env:
+          CACHE_STORE: array
+        run: |
+          php artisan optimize
+          php artisan optimize:clear
+
       - name: Build assets
         run: |
           npm ci --no-audit --no-fund
