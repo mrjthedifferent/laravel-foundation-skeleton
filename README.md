@@ -50,9 +50,16 @@ it under `sync.except` in `config/foundation.php`.
 ## Updating
 
 ```bash
-composer update mrjthedifferent/laravel-foundation
+composer update mrjthedifferent/laravel-foundation --with-dependencies
 php artisan migrate
 ```
+
+The foundation's [CHANGELOG](https://github.com/mrjthedifferent/laravel-foundation/blob/main/CHANGELOG.md)
+lists anything a project must do after an update.
+
+A project is a copy of this skeleton, so fixes to the skeleton itself do not reach existing
+projects through `composer update`. [CHANGELOG.md](CHANGELOG.md) lists them with the change to
+make by hand.
 
 ## License
 
