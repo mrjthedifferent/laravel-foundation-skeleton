@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67c5fd6d5f22b00f93dd8d87a67ba967",
+    "content-hash": "283ea3b0d19130612c085be34dc76111",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3085,16 +3085,16 @@
         },
         {
             "name": "mrjthedifferent/laravel-foundation",
-            "version": "v1.13.3",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrjthedifferent/laravel-foundation.git",
-                "reference": "879f8478571f2dd72d65ee3ff996f36c6fe778f9"
+                "reference": "cf4059e068ad68ebde47728ce484f20318fec76a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/879f8478571f2dd72d65ee3ff996f36c6fe778f9",
-                "reference": "879f8478571f2dd72d65ee3ff996f36c6fe778f9",
+                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/cf4059e068ad68ebde47728ce484f20318fec76a",
+                "reference": "cf4059e068ad68ebde47728ce484f20318fec76a",
                 "shasum": ""
             },
             "require": {
@@ -3182,24 +3182,24 @@
                     "homepage": "https://github.com/mrjthedifferent"
                 }
             ],
-            "description": "The shared base of a Laravel admin application as one updatable package: sign-in, users, roles, settings, notifications, activity logs, backups and a Bootstrap 5 admin UI.",
+            "description": "The shared base of a Laravel admin application as one updatable package: sign-in, users, roles, settings, notifications, activity logs, backups and a Tailwind CSS admin UI.",
             "homepage": "https://github.com/mrjthedifferent/laravel-foundation",
             "keywords": [
                 "Settings",
                 "admin",
-                "bootstrap",
                 "foundation",
                 "laravel",
                 "modules",
                 "permissions",
                 "roles",
-                "starter"
+                "starter",
+                "tailwindcss"
             ],
             "support": {
                 "issues": "https://github.com/mrjthedifferent/laravel-foundation/issues",
                 "source": "https://github.com/mrjthedifferent/laravel-foundation"
             },
-            "time": "2026-10-09T11:36:17+00:00"
+            "time": "2026-10-09T14:43:01+00:00"
         },
         {
             "name": "myclabs/deep-copy",

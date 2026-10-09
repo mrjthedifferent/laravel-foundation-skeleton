@@ -6,6 +6,16 @@ Changes to the foundation itself are in its
 [CHANGELOG](https://github.com/mrjthedifferent/laravel-foundation/blob/main/CHANGELOG.md)
 and arrive with `composer update`.
 
+## 2026-10-09
+
+- **Now on Laravel Foundation 2.0** (Tailwind instead of Bootstrap). `composer.json` requires `^2.0`. In a
+  project created before this, run `composer require mrjthedifferent/laravel-foundation:^2.0 --with-dependencies`,
+  then `php artisan migrate`. `composer update` already runs `foundation:publish --force` and `foundation:sync`,
+  which bring the new assets and AI guidelines. If your own views use Bootstrap classes or `data-bs-*` attributes,
+  run `node vendor/mrjthedifferent/laravel-foundation/bin/migrate-bootstrap-to-tailwind.mjs resources/views --write`
+  once on a clean git tree and review the diff.
+- **`CLAUDE.md` points AI assistants at the guidelines.** Copy it into a project created before this date.
+
 ## 2026-09-27
 
 - **Empty `resources/views` and `database/migrations` are kept.** Git does not store empty
