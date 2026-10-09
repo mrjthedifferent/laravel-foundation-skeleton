@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "283ea3b0d19130612c085be34dc76111",
+    "content-hash": "be3a7a04a8953244c79fd3ee7efb7f29",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3085,16 +3085,16 @@
         },
         {
             "name": "mrjthedifferent/laravel-foundation",
-            "version": "v2.1.2",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrjthedifferent/laravel-foundation.git",
-                "reference": "6673468cda7d32deefda3d69b93fd4a7f6a5d0f6"
+                "reference": "baec3fb7f360c225915df35ce7d7b60266961afd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/6673468cda7d32deefda3d69b93fd4a7f6a5d0f6",
-                "reference": "6673468cda7d32deefda3d69b93fd4a7f6a5d0f6",
+                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/baec3fb7f360c225915df35ce7d7b60266961afd",
+                "reference": "baec3fb7f360c225915df35ce7d7b60266961afd",
                 "shasum": ""
             },
             "require": {
@@ -3199,7 +3199,7 @@
                 "issues": "https://github.com/mrjthedifferent/laravel-foundation/issues",
                 "source": "https://github.com/mrjthedifferent/laravel-foundation"
             },
-            "time": "2026-10-09T19:01:29+00:00"
+            "time": "2026-10-09T19:27:21+00:00"
         },
         {
             "name": "myclabs/deep-copy",
