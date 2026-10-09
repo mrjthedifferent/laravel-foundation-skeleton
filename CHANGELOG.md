@@ -6,6 +6,18 @@ Changes to the foundation itself are in its
 [CHANGELOG](https://github.com/mrjthedifferent/laravel-foundation/blob/main/CHANGELOG.md)
 and arrive with `composer update`.
 
+## 2026-10-09
+
+- **Session cookies are encrypted by default.** `.env.example` now sets
+  `SESSION_ENCRYPT=true`. In an existing project, set it in `.env` too.
+- **Tidied `composer.json`.** Removed the Laravel `branch-alias` and the `pestphp/pest-plugin`
+  allowance, neither of which a project uses.
+- **Removed the placeholder `tests/Unit/ExampleTest.php`** and the `inspire` demo command from
+  `routes/console.php`. `tests/Unit/.gitkeep` keeps the folder the `Unit` test suite points at.
+- **`tests.yml` limits its token to read access and cancels superseded runs.** Add
+  `permissions: contents: read` and a `concurrency` group (`tests-${{ github.ref }}`) to an
+  existing project's workflow.
+
 ## 2026-09-27
 
 - **Empty `resources/views` and `database/migrations` are kept.** Git does not store empty
