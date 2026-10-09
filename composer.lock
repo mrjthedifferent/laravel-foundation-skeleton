@@ -3085,16 +3085,16 @@
         },
         {
             "name": "mrjthedifferent/laravel-foundation",
-            "version": "v3.3.0",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrjthedifferent/laravel-foundation.git",
-                "reference": "f0534bdee015381012cf62cdf2c8e7f72d5d076b"
+                "reference": "341fb80f43bb0edd873f052fb75a77dd40e182c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/f0534bdee015381012cf62cdf2c8e7f72d5d076b",
-                "reference": "f0534bdee015381012cf62cdf2c8e7f72d5d076b",
+                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/341fb80f43bb0edd873f052fb75a77dd40e182c9",
+                "reference": "341fb80f43bb0edd873f052fb75a77dd40e182c9",
                 "shasum": ""
             },
             "require": {
@@ -3199,7 +3199,7 @@
                 "issues": "https://github.com/mrjthedifferent/laravel-foundation/issues",
                 "source": "https://github.com/mrjthedifferent/laravel-foundation"
             },
-            "time": "2026-10-09T21:11:46+00:00"
+            "time": "2026-10-09T21:56:02+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -8858,12 +8858,12 @@
             "version": "v5.7.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
+                "url": "https://github.com/phpdotenv/phpdotenv.git",
                 "reference": "301c07936b16d88628b126b01d082ba153cf4c40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/301c07936b16d88628b126b01d082ba153cf4c40",
+                "url": "https://api.github.com/repos/phpdotenv/phpdotenv/zipball/301c07936b16d88628b126b01d082ba153cf4c40",
                 "reference": "301c07936b16d88628b126b01d082ba153cf4c40",
                 "shasum": ""
             },
