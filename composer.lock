@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67c5fd6d5f22b00f93dd8d87a67ba967",
+    "content-hash": "484ee3ee2edb00edb6d099b40c4f2e3d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3085,20 +3085,20 @@
         },
         {
             "name": "mrjthedifferent/laravel-foundation",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrjthedifferent/laravel-foundation.git",
-                "reference": "2f41b7f281a65142e6ef6fe00a4124363f652bdd"
+                "reference": "02b2bb98eb2ae562834987a7a5fcc1c0d0418155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/2f41b7f281a65142e6ef6fe00a4124363f652bdd",
-                "reference": "2f41b7f281a65142e6ef6fe00a4124363f652bdd",
+                "url": "https://api.github.com/repos/mrjthedifferent/laravel-foundation/zipball/02b2bb98eb2ae562834987a7a5fcc1c0d0418155",
+                "reference": "02b2bb98eb2ae562834987a7a5fcc1c0d0418155",
                 "shasum": ""
             },
             "require": {
-                "bacon/bacon-qr-code": "3.0",
+                "bacon/bacon-qr-code": "^3.0",
                 "google/apiclient": "^2.19",
                 "guzzlehttp/guzzle": "^7.8|^8.0",
                 "laravel-notification-channels/telegram": "^8.0",
@@ -3111,7 +3111,7 @@
                 "opcodesio/log-viewer": "^3.12",
                 "owen-it/laravel-auditing": "^14.0",
                 "php": "^8.3",
-                "pragmarx/google2fa": "9.0",
+                "pragmarx/google2fa": "^9.0",
                 "rap2hpoutre/fast-excel": "^5.5",
                 "spatie/laravel-backup": "^10.3",
                 "spatie/laravel-data": "^4.18",
@@ -3199,7 +3199,7 @@
                 "issues": "https://github.com/mrjthedifferent/laravel-foundation/issues",
                 "source": "https://github.com/mrjthedifferent/laravel-foundation"
             },
-            "time": "2026-10-08T21:51:42+00:00"
+            "time": "2026-10-09T11:02:07+00:00"
         },
         {
             "name": "myclabs/deep-copy",
