@@ -1,1 +1,8 @@
 @import '@foundation/css/app.css';
+
+/* Project brand: the sidebar, buttons, hero card, charts and links all follow these. Keep each -rgb in step with its hex. */
+:root {
+    --fd-brand: #5b4bd6;      --fd-brand-rgb: 91, 75, 214;        /* primary */
+    --fd-brand-2: #8b5cf6;                                        /* the gradient's second colour */
+    --fd-brand-dark: #a197f5; --fd-brand-dark-rgb: 161, 151, 245; /* primary on dark surfaces */
+}
